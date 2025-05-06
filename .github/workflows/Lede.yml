@@ -23,7 +23,7 @@ on:
       CONFIG_FILE:
         description: '请选择配置文件'
         required: true
-        default: 'x86_64'
+        default: 'xiaomi_mi-router-ac2100'
         type: choice
         options:
           - 'aarch64'
@@ -34,7 +34,7 @@ on:
           - 'x86_32'
           - 'x86_64'
           - 'xiaomi_mi-router-4a-gigabit'
-          - 'xiaomi_redmi-router-ac2100'
+          - 'xiaomi_mi-router-ac2100'
           - 'xiaomi_redmi-router-ax6s'
           - 'xiaoyu_xy-c5'
       INFORMATION_NOTICE:
