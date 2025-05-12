@@ -21,19 +21,15 @@ on:
         options:
           - 'openwrt-24.10'
           - 'openwrt-23.05'
-          - 'openwrt-21.02'
-          - 'openwrt-18.06'
-          - 'openwrt-18.06-k5.4'
           - 'master'
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: 'xiaomi_mi-router-ac2100'
+        default: 'x86_64'
         type: choice
         options:
           - 'x86_64'
           - 'aarch64'
-          - 'xiaomi_mi-router-ac2100'
       INFORMATION_NOTICE:
         description: 'Telegram或pushplus信息通知'
         required: true
