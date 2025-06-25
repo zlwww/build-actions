@@ -16,11 +16,12 @@ on:
       REPO_BRANCH:
         description: '天灵源码-请选择分支'
         required: true
-        default: 'openwrt-24.10'
+        default: 'openwrt-21.02'
         type: choice
         options:
           - 'openwrt-24.10'
           - 'openwrt-23.05'
+          - 'openwrt-21.02'
           - 'master'
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
