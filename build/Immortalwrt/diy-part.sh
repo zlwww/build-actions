@@ -27,7 +27,7 @@ export Default_theme="argon"                # 多主题时,选择某主题为默
 #export Create_Ipv6_Lan="0"                  # 爱快+OP双系统时,爱快接管IPV6,在OP创建IPV6的lan口接收IPV6信息(1为启用命令,填0为不作修改)
 
 # IPV6、IPV4 选择
-export Enable_IPV6_function="0"             # 编译IPV6固件(1为启用命令,填0为不作修改)(如果跟Create_Ipv6_Lan一起启用命令的话,Create_Ipv6_Lan命令会自动关闭)
+export Enable_IPV6_function="1"             # 编译IPV6固件(1为启用命令,填0为不作修改)(如果跟Create_Ipv6_Lan一起启用命令的话,Create_Ipv6_Lan命令会自动关闭)
 export Enable_IPV4_function="0"             # 编译IPV4固件(1为启用命令,填0为不作修改)(如果跟Enable_IPV6_function一起启用命令的话,此命令会自动关闭)
 
 # 替换OpenClash的源码(默认master分支)
@@ -59,11 +59,11 @@ export Cancel_running="1"                    # 取消路由器每天跑分任务
 
 
 # 晶晨CPU系列打包固件设置(不懂请看说明)
-export amlogic_model="s905d"
-export amlogic_kernel="6.1.120_6.12.15"
-export auto_kernel="true"
-export rootfs_size="512/2560"
-export kernel_usage="stable"
+#export amlogic_model="s905d"
+#export amlogic_kernel="6.1.120_6.12.15"
+#export auto_kernel="true"
+#export rootfs_size="512/2560"
+#export kernel_usage="stable"
 
 
 # 修改插件名字
