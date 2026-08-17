@@ -35,7 +35,7 @@ on:
           - 'phicomm_k3'
           - 'x86_32'
           - 'x86_64'
-          - 'xiaoyu_xy-c5'
+          - 'xiaomi_mi-router-ac2100'
       INFORMATION_NOTICE:
         description: 'Telegram或pushplus信息通知'
         required: true
